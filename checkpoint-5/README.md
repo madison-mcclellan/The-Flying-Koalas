@@ -1,0 +1,5 @@
+# Checkpoint 5: Natural Language Processing
+
+## Do civilian narratives of complaint reports against officers in a high percentile of TRRs (90th percentile and above) contain more negative sentiment than those against officers in a low percentile of TRRs (below 50th percentile)?
+
+To answer this question, we used Python's Natural Language Toolkit in a Jupyter Notebook. The downloaded code from the Jupyter Notebook is in the src folder. The notebook contains both approaches that we used to answer the question. In the first approach, we partitioned the data into the two percentile groups first then trained the model over the two groups separately. In the second approach, we trained the model over all CRs then partioned the data afterwards. In the final section, we take a sample of CRs and examine how they are classifed to evaluate the accuracy of the model. 
